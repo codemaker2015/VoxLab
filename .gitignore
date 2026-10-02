@@ -1,0 +1,33 @@
+# dependencies
+/node_modules
+
+# Vite build output
+/dist
+/dist-ssr
+
+# misc
+.DS_Store
+*.pem
+*.local
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env — keep .env.sample, ignore everything else
+.env
+.env.*
+!.env.sample
+
+# editor
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+
+# misc build artifacts
+*.tsbuildinfo
+todo.md
